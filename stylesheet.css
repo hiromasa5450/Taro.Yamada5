@@ -1,0 +1,337 @@
+    @charset "UTF-8";
+
+    body {
+        margin:0 auto;
+        width:375px;
+        text-align: center;
+        font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
+    }
+
+    .main-wrapper {
+        width: 375px;
+    }
+
+    header {
+        color:white;
+        background-color:red;
+        font-weight: bold;
+        height: 63px;
+        line-height: 63px;
+    }
+
+    .main-image img{
+        width:375px;
+        object-fit: cover;
+        position:relative;
+    }
+
+    .profile {
+        color:white;
+        background-color:red;
+        width:100px;
+        height:40px;
+        line-height: 40px;
+        margin:0 auto;
+        margin-top: 60px;
+        border-radius: 30px;
+    }
+
+    .profile-image img{
+        width: 100px;
+        height:100px;
+        object-fit: cover;
+        object-position: 0 10px;
+        border-radius: 100%;
+        background-color: red;
+        display: block;
+        margin:0 auto;
+        margin-top: 50px;
+    }
+
+    .profile-name {
+        color:red;
+        margin-top: 30px;
+        margin-bottom:30px;
+        font-size: 20px;
+    }
+
+    .profile-career {
+        width:230px;
+        margin: 0 auto;
+        text-align: left;
+    }
+
+    .profile-career p {
+        color:red;
+        font-size:10px;
+        padding-bottom: 10px;
+    }
+
+    .soccer-wrapper {
+        position:relative;
+    }
+
+    .playing-soccer {
+        text-align: left;
+    }
+
+    .playing-soccer img {
+        width: 180px;
+        height:150px;
+        object-fit: cover;
+        object-position: 50 0px;
+        margin-left: 40px;
+        border-radius: 20px;
+        
+    }
+
+    .hobby h1 {
+        color:red;
+        margin-top: 50px;
+        margin-bottom:50px;
+        font-size: 20px;
+    }
+
+    .playing-soccer-text h1 {
+        color:red;
+        font-size: 16px;
+        background-color: white;
+        width: 180px;
+        height: 25px;
+        line-height: 25px;
+        border-radius: 30px;
+        position:absolute;
+        top:65px;
+        right: 30px;
+    }
+
+    .reading-wrapper {
+        position:relative;
+    }
+
+    .reading-book {
+        text-align: right;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .reading-book img {
+        width: 180px;
+        height:150px;
+        object-fit: cover;
+        object-position: 50 0px;
+        margin-right: 40px;
+        border-radius: 20px;
+        
+    }
+
+  
+
+    .reading-book-text h1 {
+        color:red;
+        font-size: 16px;
+        background-color: white;
+        width: 180px;
+        height: 25px;
+        line-height: 25px;
+        border-radius: 30px;
+        position:absolute;
+        top:65px;
+        left: 40px;
+    }
+
+
+    .cycling-wrapper {
+        position:relative;
+    }
+
+    .cycling {
+        text-align: left;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .cycling img {
+        width: 180px;
+        height:150px;
+        object-fit: cover;
+        object-position: 0 0px;
+        margin-left: 40px;
+        border-radius: 20px;
+        
+    }  
+
+    .cycling-text h1 {
+        color:red;
+        font-size: 16px;
+        background-color: white;
+        width: 110px;
+        height: 25px;
+        line-height: 25px;
+        border-radius: 30px;
+        position:absolute;
+        top:65px;
+        right: 90px;
+    }
+
+
+
+
+
+    .marketing-wrapper {
+        position:relative;
+    }
+
+    .marketing {
+        text-align: right;
+    }
+
+    .marketing img {
+        width: 180px;
+        height:150px;
+        object-fit: cover;
+        object-position: 50 0px;
+        margin-right: 40px;
+        border-radius: 20px;
+        
+    }
+
+    .skill h1 {
+        color:red;
+        margin-top: 50px;
+        margin-bottom:50px;
+        font-size: 20px;
+    }
+
+    .marketing-text h1 {
+        color:red;
+        font-size: 16px;
+        background-color: white;
+        width: 140px;
+        height: 25px;
+        line-height: 25px;
+        border-radius: 30px;
+        position:absolute;
+        top:65px;
+        left: 80px;
+    }
+
+    .programing-wrapper {
+        position:relative;
+    }
+
+    .programing {
+        text-align: left;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .programing img {
+        width: 180px;
+        height:150px;
+        object-fit: cover;
+        object-position: 50 0px;
+        margin-left: 40px;
+        border-radius: 20px;
+        
+    }
+
+  
+
+    .programing-text h1 {
+        color:red;
+        font-size: 16px;
+        background-color: white;
+        width: 150px;
+        height: 25px;
+        line-height: 25px;
+        border-radius: 30px;
+        position:absolute;
+        top:65px;
+        right: 70px;
+    }
+
+    .sns {
+        color:white;
+        background-color:red;
+        width:100px;
+        height:40px;
+        line-height: 40px;
+        margin:0 auto;
+        margin-top: 60px;
+        margin-bottom: 60px;
+        border-radius: 30px;
+    }
+
+    .icons-flex {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 180px;
+    }
+
+    /*--------------*/
+
+    .twitter {
+        margin-right: 30px;
+    }
+
+    .icon-twitter {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color:deepskyblue;
+        border-radius: 50px;
+        width: 50px;
+        height: 50px;
+        position:relative;
+        left: 5px;
+    }
+
+    .fa-twitter {
+        font-size: 25px;
+        color: white;
+    }
+
+    .twitter h1 {
+        margin-top: 5px;
+    }
+
+    /*--------------*/
+
+    .instagram {
+        
+    }
+
+    .icon-instagram {
+        background: linear-gradient(45deg, rgba(254,212,117,1) 0%,rgba(229,61,93,1) 50%,rgba(194,49,134,1) 70%,rgba(156,56,187,1) 100%);
+        border-radius: 50px;
+        width: 50px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position:relative;
+        left: 18px;
+
+    }
+
+    .fa-instagram    {
+        font-size: 25px;
+        color: white;
+    }
+
+    .instagram h1 {
+        margin-top: 5px;
+    }
+
+    /*--------------*/
+
+    footer {
+        background-color: gray;
+        height: 80px;
+    }
+
+    .copy-write {
+        font-size: 10px;
+        padding-top: 20px;
+    }
